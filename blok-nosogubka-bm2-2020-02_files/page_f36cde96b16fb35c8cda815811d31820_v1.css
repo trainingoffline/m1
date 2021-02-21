@@ -1,0 +1,1802 @@
+
+
+/* Start:/local/templates/personal/components/bitrix/news/marathon/bitrix/news.detail/.default/style.css?1604569423759*/
+div.news-detail
+{
+	word-wrap: break-word;
+}
+div.news-detail img.detail_picture
+{
+	float:left;
+	margin:0 8px 6px 1px;
+}
+.news-date-time
+{
+	color:#486DAA;
+}
+
+.video {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe, .video-container object, .video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.confirm-rules {
+	max-width: 100%;
+	white-space: normal;
+	background: linear-gradient(95deg, rgb(233, 88, 143) 20%, rgb(233, 88, 143) 80%);
+}
+
+ol.marathon-rules li label {
+	color: #000;
+}
+/* End */
+
+
+/* Start:/local/components/magnitmedia/tree.comments/templates/.default/style.css?160456942126324*/
+.commments_count_ajax {
+    display: none;
+}
+
+.tc_buttons:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.treecomments.tree .tc_button {
+    /*float: left;*/
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.tc_avatar img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.tc_comment_block {
+    margin-left: 50px;
+}
+
+.tc_avatar {
+    float: left;
+    margin-right: 15px;
+    position: relative;
+}
+
+.reply_form {
+    min-height: 40px;
+}
+
+.reply_form_block {
+    clear: both;
+}
+
+.tc_comment_block .tc_comment_message_header .tc_fio {
+    font-size: 13px;
+    color: #3a609b;
+    position: relative;
+}
+
+.tc_comment_block .tc_avatar {
+    border-radius: 50%;
+    /* overflow: hidden; */
+    box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+    width: 35px;
+    height: 35px;
+}
+
+.tc_avatar.reply {
+    width: 35px;
+    height: 35px;
+    float: left;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+}
+
+.treecomments.tree {
+    margin-top: 30px;
+}
+
+.tc_comment_message_footer .tc_button.reply,
+.tc_comment_message_footer .tc_button.change,
+.tc_comment_message_footer .tc_button.delete,
+.tc_comment_message_footer .tc_button.ban {
+    cursor: pointer;
+    /*margin-right: 15px;*/
+    color: #a3a3a3;
+    font-size: 12px;
+    /*float: left;*/
+    -webkit-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    /*margin-bottom: 10px;*/
+}
+
+.tc_comment_message_text {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    word-break: break-word;
+    line-height: 1.7;
+}
+
+.treecomments {
+    float: none;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    margin: 0;
+    padding: 0;
+    border: none 0;
+    border-radius: 0;
+    font-size: 12px;
+    vertical-align: baseline;
+    background: 0 0;
+    color: #000;
+    line-height: 1.167em;
+    outline: 0;
+    text-transform: none;
+    text-decoration: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    text-shadow: none;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    min-height: 0;
+    -webkit-overflow-scrolling: touch;
+}
+
+.treecomments.tc_menu {
+    position: relative;
+    height: 30px;
+    font-size: 15px;
+    color: #000;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.treecomments.comments_count {
+    line-height: 30px;
+    display: inline-block;
+    margin-right: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    color: #000;
+    -webkit-transition-property: color, background;
+    transition-property: color, background;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    box-shadow: 0px 2px;
+}
+
+.treecomments.comments_count:before {
+    content: " ";
+    float: right;
+    margin: 12px 0 0 5px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 3px 0 3px;
+    border-color: #000 transparent transparent transparent;
+    line-height: 0;
+}
+
+.treecomments.tc_comments_count {
+    cursor: pointer;
+    color: #000;
+    font-size: 15px;
+    position: relative;
+}
+
+.comments_count .sub {
+    display: none;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, .2);
+    z-index: 10;
+    padding: 10px;
+}
+
+.comments_count:hover .sub {
+    display: block;
+}
+
+.checkbox-wrap {
+    display: -webkit-box;
+    display: flex;
+    position: relative;
+}
+
+.checkbox-wrap label {
+    color: black;
+    white-space: nowrap;
+    margin-right: 15px;
+    width: 120px;
+}
+
+.checkbox-wrap input[type="radio"] {
+    width: 15px;
+    height: 14px;
+    border: 1px solid rgba(0, 0, 0, .2);
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.checkbox-wrap input[type="radio"]:checked {
+    border: 1px solid #ab47bc;
+}
+
+.checkbox-wrap input[type="radio"]+svg {
+    display: none;
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+.checkbox-wrap input[type="radio"]:checked+svg {
+    display: block;
+}
+
+.comment-msg-wrap {
+    float: none;
+    margin-left: 50px;
+}
+
+.tc_comment_block {
+    margin-left: 0;
+}
+
+.tc_comment_block>.tc_comment_block {
+    margin-left: 50px;
+}
+
+.tc_datetime {
+    font-size: 10px;
+    color: #a3a3a3;
+    margin-left: 6px;
+}
+
+.tc_comment_message {
+    margin-bottom: 25px;
+}
+
+.tc_comment_message.highlight {
+    -webkit-transition: background-color 2s ease;
+    transition: background-color 2s ease;
+    background-color: rgba(255, 215, 0, 0.2);
+
+}
+
+.reply-btn {
+    background: #424141;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    height: 27px;
+    line-height: 27px;
+    padding: 0 10px;
+    display: inline-block;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -o-box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+    border: none;
+    float: right;
+}
+
+.reply_form textarea {
+    /* overflow: hidden; */
+    display: inline;
+    box-sizing: border-box;
+    /* height: 80px; */
+
+    max-height: 200px;
+
+    width: 100%;
+    background-color: #fff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #e1e4e6;
+    font-size: 14px;
+    padding: 14px 80px 14px 9px;
+    resize: none;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -o-box-shadow: 0 0 1px rgba(0, 0, 0, .01), 0 2px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 0 1px rgba(0, 0, 0, .01), 0 2px 1px rgba(0, 0, 0, .04);
+    -webkit-transition-property: height;
+    transition-property: height;
+    -webkit-transition-duration: .25s;
+    transition-duration: .25s;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+.reply-msg-wrap {
+    float: none;
+    margin-left: 50px;
+    position: relative;
+}
+
+.reply-msg-wrap .close {
+    position: absolute;
+    right: 27px;
+    top: 14px;
+    padding: 5px;
+    margin-right: -2px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+.reply_form.main .close {
+    display: none;
+}
+
+.reply-bottom {
+    position: absolute;
+    right: 18px;
+    bottom: 25px;
+    z-index: 20;
+    display: -webkit-box;
+    display: flex;
+}
+
+.reply-clip {
+    cursor: pointer;
+    z-index: 1;
+    /* float: left; */
+    /* margin-right: 10px; */
+    cursor: pointer;
+
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.reply-clip svg {
+    cursor: pointer;
+}
+
+.reply-clip .fileupload {
+    opacity: 0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    cursor: pointer;
+}
+
+
+.attach-message-popup {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    opacity: 0;
+    height: 0;
+    visibility: hidden;
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    -o-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, .1);
+    color: #7f8c8d;
+    font-size: 12px;
+    min-width: 115px;
+    -webkit-transition: all 450ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    transition: all 450ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+}
+
+
+.reply-bottom .smile {
+    cursor: pointer;
+    z-index: 1;
+    /* float: left; */
+    /* margin-left: 10px; */
+
+    width: 30px;
+    height: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.smile-list {
+    display: none;
+    min-width: 300px;
+    padding: 15px;
+    overflow: hidden;
+    width: 270px;
+    background: white;
+    top: 160%;
+    position: absolute;
+    right: 0;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .01), 0 2px 1px rgba(0, 0, 0, .04);
+    border-radius: 5px;
+    z-index: 100;
+}
+
+
+.smile-list-open {
+    display: block;
+}
+
+.smile-list-close {
+    display: none;
+}
+
+.tc_smile_item {
+    display: inline-block;
+    margin: 1px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.tc_smile_item img {
+    width: 25px;
+    /* height: 25px; */
+    max-width: 25px;
+    max-height: 25px;
+}
+
+.smile-list--holder {
+    max-height: 150px;
+    overflow: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.emoji_smile {
+    max-width: 16px;
+}
+
+/* Attache files */
+.tc_files {
+    border: 1px solid #e1e4e6;
+    border-top: none;
+    overflow: hidden;
+    margin-bottom: 20px;
+    -webkit-transform: translate3d(0, -100px, 0);
+    transform: translate3d(0, -100px, 0);
+    opacity: 0;
+    -webkit-transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 100ms, -webkit-transform 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 100ms, -webkit-transform 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 100ms, transform 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 100ms, transform 400ms cubic-bezier(0.23, 1, .32, 1) 0ms, -webkit-transform 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    position: relative;
+    z-index: 1;
+}
+
+.tc_files[active=true] {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.tc_file_close {
+    float: left;
+    margin-right: 18px;
+    cursor: pointer;
+}
+
+.tc_file {
+    margin: 9px;
+    display: inline-block;
+}
+
+.tc_file img[active=true] {
+    max-width: 125px;
+    opacity: 1;
+}
+
+.tc_file img {
+    max-width: 10px;
+    max-height: 100px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    -webkit-transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 0ms, max-width 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+    transition: opacity 400ms cubic-bezier(0.23, 1, .32, 1) 0ms, max-width 400ms cubic-bezier(0.23, 1, .32, 1) 0ms;
+}
+
+.tc_comments_message_att {
+    margin-bottom: 10px;
+}
+
+.tc_comments_message_att img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+    padding: 0;
+    border-radius: 2px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -o-box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+    box-shadow: 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);
+}
+
+.error_text {
+    color: red;
+}
+
+/* /Attache files */
+
+.treecomments_widget {
+    padding: 0px 0px;
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+.error-top {
+    display: none;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 25px 100px;
+    background: linear-gradient(60deg, #ab47bc, #8e24aa);
+    box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(156, 39, 176, 0.4);
+    color: white;
+    text-align: center;
+    z-index: 10000;
+}
+
+.error-top a {
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.tc_avatar.moderator::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    border-radius: 50%;
+    background: url(/upload/moderator-icon.svg) center center no-repeat, white;
+    background-size: auto, auto;
+    background-size: 80%;
+
+}
+.tc_avatar.leader::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: -8px;
+    bottom: 0;
+    border-radius: 50%;
+    background: url(/upload/moderator-icon-v.png) center center no-repeat, white;
+    background-size: auto, auto;
+    background-size: 80%;
+
+}
+
+.textarea-wrap {
+    position: relative;
+}
+
+.tc_get_more_block {
+    float: none;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+.tc_get_more_item {
+    color: #a3a3a3;
+    width: 115px;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.tc_get_more:hover,
+.tc_get_all:hover {
+    color: #735959;
+    border-bottom: 1px dashed #735959;
+}
+
+.tc_get_more,
+.tc_get_all {
+    color: #a3a3a3;
+    border-bottom: 1px dashed #c5cacd;
+    display: inline-block;
+    -webkit-transition-property: color, border-bottom;
+    transition-property: color, border-bottom;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+}
+
+.tc_message_attimg {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+#loading_wrapper,
+#smile_loading_wrapper {
+    display: block;
+    width: 100%;
+    height: 20px;
+    background: url(/bitrix/js/main/core/images/wait.gif) no-repeat center;
+}
+
+.tc_comments_message_att {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-flow: row wrap;
+}
+
+
+.tc_comment_message_footer .tc_button.reply,
+.tc_comment_message_footer .tc_button.change,
+.tc_comment_message_footer .tc_button.delete,
+.tc_comment_message_footer .tc_button.ban {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tc_comment_message_footer .tc_button.reply {
+    padding: 10px 40px 10px 0;
+    color: black;
+    font-weight: bold;
+    float: left;
+}
+
+@media screen and (max-width: 445px) {
+
+    .tc_comment_message_footer .tc_button.reply,
+    .tc_comment_message_footer .tc_button.change,
+    .tc_comment_message_footer .tc_button.delete {
+        margin-right: 10px;
+        padding-top: 0;
+    }
+
+    .tc_comment_message_footer .tc_button.reply {
+        width: 100%;
+        margin-right: 0;
+        padding-right: 0;
+        margin-bottom: 0;
+    }
+}
+
+.rpl-btn {
+    position: relative;
+}
+
+.more-tools-btn {
+    cursor: pointer;
+}
+
+.rpl-btn .tc_button.reply+.more-tools-btn {
+    width: 72px;
+    height: 34px;
+    float: left;
+    padding: 10px 40px 10px 0;
+    margin: 0 15px 10px 0;
+    position: relative;
+}
+
+.more-tools-btn .dd-arrow {
+    width: 20px;
+    height: 20px;
+    background: url(https://melannett2.dev.magnitmedia.ru/upload/arrow-down-dark.svg) center no-repeat;
+    position: absolute;
+    top: 7px;
+    /*left: 40px;*/
+    left: 25px;
+    z-index: 10;
+    cursor: pointer;
+    background-size: 10px;
+}
+
+.more-tools-btn.show .dd-arrow {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.rpl-btn ul.rpl-btn-dd {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 85px;
+    list-style: none;
+    line-height: 2;
+    background: white;
+    padding: 0;
+    z-index: 1000;
+    /*padding: 20px 30px 10px 30px;*/
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .1);
+}
+
+.rpl-btn ul.rpl-btn-dd li:hover {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+@-webkit-keyframes anim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.more-tools-btn.show+.rpl-btn-dd {
+    display: block !important;
+    -webkit-animation: anim .3s;
+    animation: anim .3s;
+}
+
+.rpl-btn ul li {
+    /*padding-bottom: 10px;*/
+    cursor: pointer;
+    padding: 10px;
+}
+
+.popup.popup-reply-wrap,
+.popup.pinned-popup {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, .45);
+    z-index: 10001;
+    position: fixed;
+    display: none;
+}
+
+.popup-reply-inner {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.popup-reply-content {
+    width: 780px;
+    min-height: 200px;
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 24px 24px rgba(0, 0, 0, 0.1);
+    padding: 35px 25px;
+    position: relative;
+}
+
+.popup-reply-content .footer {}
+
+.popup-reply-content .reply-msg-wrap {
+    margin-left: 0;
+}
+
+.popup-reply-content .reply-btn {
+    background: #E9588F;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+}
+
+.popup-reply-content .close {
+    position: absolute;
+    right: 35px;
+    top: 35px;
+}
+
+.textarea__container {
+    position: relative;
+}
+
+.textarea__textarea {
+    overflow: hidden;
+    /*display: inline;*/
+    box-sizing: border-box;
+    /* height: 80px; */
+    /*max-height: 200px;*/
+    min-height: 76px;
+    width: 100%;
+    background-color: #fff;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #e1e4e6;
+    font-size: 14px;
+    padding: 14px 80px 14px 9px;
+    /*resize: none;*/
+    /*-o-border-radius: 2px;*/
+    /*-moz-border-radius: 2px;*/
+    /*-khtml-border-radius: 2px;*/
+    /*-webkit-border-radius: 2px;*/
+    /*border-radius: 2px;*/
+    /*-moz-background-clip: padding;*/
+    /*-webkit-background-clip: padding-box;*/
+    /*background-clip: padding-box;*/
+    /*-o-box-shadow: 0 0 1px rgba(0,0,0,.01),0 2px 1px rgba(0,0,0,.04);*/
+    /*-moz-box-shadow: 0 0 1px rgba(0,0,0,.01),0 2px 1px rgba(0,0,0,.04);*/
+    /*-khtml-box-shadow: 0 0 1px rgba(0,0,0,.01),0 2px 1px rgba(0,0,0,.04);*/
+    /*-webkit-box-shadow: 0 0 1px rgba(0,0,0,.01), 0 2px 1px rgba(0,0,0,.04);*/
+    /*box-shadow: 0 0 1px rgba(0,0,0,.01), 0 2px 1px rgba(0,0,0,.04);*/
+    /*-webkit-transition-property: height;*/
+    /*-moz-transition-property: height;*/
+    /*-o-transition-property: height;*/
+    /*transition-property: height;*/
+    /*-webkit-transition-duration: .25s;*/
+    /*-moz-transition-duration: .25s;*/
+    /*-o-transition-duration: .25s;*/
+    /*transition-duration: .25s;*/
+    /*margin-bottom: 10px;*/
+    /*line-height: 1.7;*/
+}
+
+.textarea__placeholder {
+    position: absolute;
+    top: 28px;
+    left: 11px;
+    width: 100%;
+    color: #828282;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    padding: 1px;
+    opacity: 1;
+    line-height: 14px;
+    font-size: 14px;
+
+    -webkit-user-select: none;
+
+    -moz-user-select: none;
+
+    -ms-user-select: none;
+
+    user-select: none;
+    cursor: text;
+    pointer-events: none;
+}
+
+.tc_comment_message_text div,
+.tc_comment_message_text p,
+.tc_comment_message_text span {
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.tc_comment_message_text {
+    font-size: 14px !important;
+}
+
+.textarea__textarea div,
+.textarea__textarea p,
+.textarea__textarea span {
+    font-size: 14px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.textarea__textarea .emoji-icon,
+.tc_comment_message_text .emoji-icon,
+.tc_comment_message_text img {
+    max-height: 1.5em;
+    margin: 0px 3px;
+}
+
+form .form_waiting {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 25;
+    background: rgba(255, 255, 255, 0.5) url(/bitrix/js/main/core/images/wait.gif) no-repeat center;
+}
+
+/* ////////////////////////////////////////////////
+
+////////////////// 29.10.2019 //////////////////
+
+//////////////////////////////////////////////// */
+
+
+.popup-reply-content {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.popup.popup-reply-wrap .tc_comment_message_text,
+.popup.pinned-popup .tc_comment_message_text {
+    max-height: 40vh;
+    margin-bottom: 40px;
+    overflow: auto;
+}
+
+.textarea__container {
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.textarea__textarea {
+    line-height: 1.7;
+}
+
+.textarea__textarea div,
+.textarea__textarea p,
+.textarea__textarea span,
+.textarea__textarea h2 {
+    background-color: transparent !important;
+}
+
+.smile-list {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+@media screen and (max-width: 991px) {
+
+    .popup.popup-reply-wrap .tc_comment_message_text,
+    .popup.pinned-popup .tc_comment_message_text {
+        max-height: 30vh;
+        margin-bottom: 20px;
+        overflow: auto;
+    }
+
+    .textarea__container {
+        max-height: 25vh;
+    }
+}
+
+.reply-bottom .smile:hover .smile-list {
+    /* opacity: 1; */
+    /* display: initial; */
+    display: block;
+}
+
+.reply-bottom .smile-list {
+    /* opacity: 0; */
+    /* display: initial; */
+    display: none;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    top: 90%;
+    right: -18px;
+}
+
+
+.reply-bottom {
+    bottom: 10px;
+}
+
+.reply-bottom .reply-clip,
+.reply-bottom .smile {
+    height: 30px !important;
+}
+
+@media screen and (max-width:991px) {
+    .popup-reply-content {
+        height: 90vh;
+        max-height: initial;
+        overflow-y: auto;
+        padding-bottom: 50px;
+    }
+}
+
+.tc_comment_block {
+    margin-bottom: 20px;
+}
+
+.tc_comment_message_header {
+    margin-bottom: 10px;
+}
+
+.rpl-btn ul.rpl-btn-dd {
+    left: 100px;
+}
+
+.tc_comment_message_footer .tc_button.reply,
+.tc_comment_message_footer .tc_button.change,
+.tc_comment_message_footer .tc_button.delete,
+.tc_comment_message_footer .tc_button.ban {
+    color: black;
+}
+
+@media screen and (max-width: 445px) {
+
+    .tc_comment_message_footer .tc_button.change,
+    .tc_comment_message_footer .tc_button.delete {
+        margin-right: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .rpl-btn ul.rpl-btn-dd {
+        top: 80px;
+        left: 0;
+    }
+}
+
+/* scroller overwrited styles*/
+.mCS-dark .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 8px !important;
+}
+
+/* /////////////////////////// */
+/* ///////    PINNED MSGS  /////// */
+/* ///////////////////////// */
+.pinned {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: calc(100% - 260px);
+    background: white;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 16px 24px rgba(0, 0, 0, 0.06);
+    z-index: 10000;
+    cursor: pointer;
+}
+
+.pinned.block {
+    position: relative;
+    width: 100%;
+}
+
+.pinned.paid_subscription:not(.block) {
+    display: none;
+}
+
+.pinned .pinned-inner {
+    width: 100%;
+}
+
+.pinned .pinned-inner .msg-wrap {
+    border-left: 3px solid #AB47BC;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between
+}
+
+.pinned .pinned-inner .msg-wrap .img-container {
+    flex-shrink: 0;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.pinned:not(.block) .pinned-inner .msg-wrap .img-container {
+    text-align: left;
+}
+
+.pinned .pinned-inner .msg-wrap .text {
+    width: calc(100% - 40px);
+}
+
+.pinned .pinned-inner .msg-wrap .img-container img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    display: inline-block;
+}
+
+.pinned:not(.block) .pinned-inner .msg-wrap .img-container img {
+    width: 45px;
+    height: 45px;
+}
+
+.pinned .pinned-inner .msg-wrap .text .top {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #9C27B0;
+    display: -webkit-box;
+    display: flex;
+}
+
+.pinned .pinned-inner .msg-wrap .text .top span {
+    color: black;
+    margin-right: 5px;
+}
+
+.pinned:not(.block) .pinned-inner .msg-wrap .text .bottom {
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.pinned .pinned-inner .msg-wrap .text .bottom div {
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.pinned .pinned-inner .msg-wrap .close {
+    width: 20px;
+    height: 40px;
+    flex-shrink: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.slide-out {
+    top: -100px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.pinned .pinned-inner .msg-wrap .text .bottom img {
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .pinned {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pinned .pinned-inner .msg-wrap .img-container {
+        /* display: none; */
+        margin-right: 10px;
+    }
+
+    .pinned .pinned-inner .msg-wrap .text .top span {
+        display: none;
+    }
+
+    .pinned {
+        padding: 15px;
+    }
+
+    .pinned .pinned-inner .msg-wrap {
+        padding-left: 0px;
+        border-left: 0;
+    }
+}
+
+.public-comments-wrap {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+
+#subscription-feed {
+    width: 100%;
+}
+
+.video-subscribe-wrapper {
+    width: 100%;
+    margin-bottom: 60px 0;
+}
+
+.video-subscribe-wrapper .video-title .name {
+   font-weight: bold;
+   font-size: 22px; 
+   margin: 20px 0 20px 0px;
+}
+
+.wrapper--sidebar {
+    margin-bottom: 100px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .video-subscribe-wrapper .video-subscribe {
+        height: 50vw;
+    }
+}
+
+.pinned-popup .tc_message_attimg {
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+}
+
+.pinned-popup .tc_message_attimg .tc {
+    max-width: 100%;
+    max-height: initial;
+}
+
+/* --------------- LIKE --------------- */
+.like-wrap {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    padding: 7px 1px 1px 1px;
+}
+
+.like-wrap input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.like-wrap label {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.like-wrap label svg {
+    margin-right: 5px;
+
+}
+
+.like-wrap label svg path {
+    transition: all .1s ease-in-out;
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+}
+
+.like-wrap label span {
+    color: #3C4858;
+}
+
+.like-wrap label span.hide {
+    display: inline-block !important;
+    opacity: 0;
+}
+
+.like-wrap:hover svg path {
+    fill: rgb(197, 82, 218);
+}
+
+.like-wrap input[checked="checked"] + label svg path {
+    fill: #9C27B0;
+}
+/* End */
+
+
+/* Start:/local/components/magnitmedia/tree.comments/templates/.default/jquery.mCustomScrollbar.css?160456942116507*/
+/*
+== malihu jquery custom scrollbar plugin ==
+Plugin URI: http://manos.malihu.gr/jquery-custom-content-scroller
+*/
+
+
+
+/*
+CONTENTS: 
+	1. BASIC STYLE - Plugin's basic/essential CSS properties (normally, should not be edited). 
+	2. VERTICAL SCROLLBAR - Positioning and dimensions of vertical scrollbar. 
+	3. HORIZONTAL SCROLLBAR - Positioning and dimensions of horizontal scrollbar.
+	4. VERTICAL AND HORIZONTAL SCROLLBARS - Positioning and dimensions of 2-axis scrollbars. 
+	5. TRANSITIONS - CSS3 transitions for hover events, auto-expanded and auto-hidden scrollbars. 
+	6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS 
+		6.1 THEMES - Scrollbar colors, opacity, dimensions, backgrounds etc. via ready-to-use themes.
+*/
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+1. BASIC STYLE  
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	.mCustomScrollbar{ -ms-touch-action: pinch-zoom; touch-action: pinch-zoom; /* direct pointer events to js */ }
+	.mCustomScrollbar.mCS_no_scrollbar, .mCustomScrollbar.mCS_touch_action{ -ms-touch-action: auto; touch-action: auto; }
+	
+	.mCustomScrollBox{ /* contains plugin's markup */
+		position: relative;
+		overflow: hidden;
+		height: 100%;
+		max-width: 100%;
+		outline: none;
+		direction: ltr;
+	}
+
+	.mCSB_container{ /* contains the original content */
+		overflow: hidden;
+		width: auto;
+		height: auto;
+	}
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+2. VERTICAL SCROLLBAR 
+y-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	.mCSB_inside > .mCSB_container{ margin-right: 30px; }
+
+	.mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-right: 0; } /* non-visible scrollbar */
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_container{ /* RTL direction/left-side scrollbar */
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_container.mCS_no_scrollbar_y.mCS_y_hidden{ margin-left: 0; } /* RTL direction/left-side scrollbar */
+
+	.mCSB_scrollTools{ /* contains scrollbar markup (draggable element, dragger rail, buttons etc.) */
+		position: absolute;
+		width: 16px;
+		height: auto;
+		left: auto;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	.mCSB_outside + .mCSB_scrollTools{ right: -26px; } /* scrollbar position: outside */
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_scrollTools, 
+	.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{ /* RTL direction/left-side scrollbar */
+		right: auto;
+		left: 0;
+	}
+	
+	.mCS-dir-rtl > .mCSB_outside + .mCSB_scrollTools{ left: -26px; } /* RTL direction/left-side scrollbar (scrollbar position: outside) */
+
+	.mCSB_scrollTools .mCSB_draggerContainer{ /* contains the draggable element and dragger rail markup */
+		position: absolute;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0; 
+		height: auto;
+	}
+
+	.mCSB_scrollTools a + .mCSB_draggerContainer{ margin: 20px 0; }
+
+	.mCSB_scrollTools .mCSB_draggerRail{
+		width: 2px;
+		height: 100%;
+		margin: 0 auto;
+		-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
+	}
+
+	.mCSB_scrollTools .mCSB_dragger{ /* the draggable element */
+		cursor: pointer;
+		width: 100%;
+		height: 30px; /* minimum dragger height */
+		z-index: 1;
+	}
+
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ /* the dragger element */
+		position: relative;
+		width: 4px;
+		height: 100%;
+		margin: 0 auto;
+		-webkit-border-radius: 16px; -moz-border-radius: 16px; border-radius: 16px;
+		text-align: center;
+	}
+	
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, 
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{ width: 12px; /* auto-expanded scrollbar */ }
+	
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, 
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{ width: 8px; /* auto-expanded scrollbar */ }
+
+	.mCSB_scrollTools .mCSB_buttonUp,
+	.mCSB_scrollTools .mCSB_buttonDown{
+		display: block;
+		position: absolute;
+		height: 20px;
+		width: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+
+	.mCSB_scrollTools .mCSB_buttonDown{ bottom: 0; }
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+3. HORIZONTAL SCROLLBAR 
+x-axis
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	.mCSB_horizontal.mCSB_inside > .mCSB_container{
+		margin-right: 0;
+		margin-bottom: 30px;
+	}
+	
+	.mCSB_horizontal.mCSB_outside > .mCSB_container{ min-height: 100%; }
+
+	.mCSB_horizontal > .mCSB_container.mCS_no_scrollbar_x.mCS_x_hidden{ margin-bottom: 0; } /* non-visible scrollbar */
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal{
+		width: auto;
+		height: 16px;
+		top: auto;
+		right: 0;
+		bottom: 0;
+		left: 0;
+	}
+
+	.mCustomScrollBox + .mCSB_scrollTools.mCSB_scrollTools_horizontal,
+	.mCustomScrollBox + .mCSB_scrollTools + .mCSB_scrollTools.mCSB_scrollTools_horizontal{ bottom: -26px; } /* scrollbar position: outside */
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal a + .mCSB_draggerContainer{ margin: 0 20px; }
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_draggerRail{
+		width: 100%;
+		height: 2px;
+		margin: 7px 0;
+	}
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger{
+		width: 30px; /* minimum dragger width */
+		height: 100%;
+		left: 0;
+	}
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_dragger .mCSB_dragger_bar{
+		width: 100%;
+		height: 4px;
+		margin: 6px auto;
+	}
+	
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded .mCSB_dragger_bar, 
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_dragger .mCSB_dragger_bar{
+		height: 12px; /* auto-expanded scrollbar */
+		margin: 2px auto;
+	}
+	
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger.mCSB_dragger_onDrag_expanded + .mCSB_draggerRail, 
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerContainer:hover .mCSB_draggerRail{
+		height: 8px; /* auto-expanded scrollbar */
+		margin: 4px 0;
+	}
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft,
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight{
+		display: block;
+		position: absolute;
+		width: 20px;
+		height: 100%;
+		overflow: hidden;
+		margin: 0 auto;
+		cursor: pointer;
+	}
+	
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonLeft{ left: 0; }
+
+	.mCSB_scrollTools.mCSB_scrollTools_horizontal .mCSB_buttonRight{ right: 0; }
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+4. VERTICAL AND HORIZONTAL SCROLLBARS 
+yx-axis 
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	.mCSB_container_wrapper{
+		position: absolute;
+		height: auto;
+		width: auto;
+		overflow: hidden;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-right: 30px;
+		margin-bottom: 30px;
+	}
+	
+	.mCSB_container_wrapper > .mCSB_container{
+		padding-right: 30px;
+		padding-bottom: 30px;
+		-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;
+	}
+	
+	.mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_vertical{ bottom: 20px; }
+	
+	.mCSB_vertical_horizontal > .mCSB_scrollTools.mCSB_scrollTools_horizontal{ right: 20px; }
+	
+	/* non-visible horizontal scrollbar */
+	.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden + .mCSB_scrollTools.mCSB_scrollTools_vertical{ bottom: 0; }
+	
+	/* non-visible vertical scrollbar/RTL direction/left-side scrollbar */
+	.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal, 
+	.mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_scrollTools.mCSB_scrollTools_horizontal{ right: 0; }
+	
+	/* RTL direction/left-side scrollbar */
+	.mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_scrollTools.mCSB_scrollTools_horizontal{ left: 20px; }
+	
+	/* non-visible scrollbar/RTL direction/left-side scrollbar */
+	.mCS-dir-rtl > .mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden + .mCSB_scrollTools ~ .mCSB_scrollTools.mCSB_scrollTools_horizontal{ left: 0; }
+	
+	.mCS-dir-rtl > .mCSB_inside > .mCSB_container_wrapper{ /* RTL direction/left-side scrollbar */
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	
+	.mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden > .mCSB_container{ padding-right: 0; }
+	
+	.mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden > .mCSB_container{ padding-bottom: 0; }
+	
+	.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_y.mCS_y_hidden{
+		margin-right: 0; /* non-visible scrollbar */
+		margin-left: 0;
+	}
+	
+	/* non-visible horizontal scrollbar */
+	.mCustomScrollBox.mCSB_vertical_horizontal.mCSB_inside > .mCSB_container_wrapper.mCS_no_scrollbar_x.mCS_x_hidden{ margin-bottom: 0; }
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+5. TRANSITIONS  
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	.mCSB_scrollTools, 
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, 
+	.mCSB_scrollTools .mCSB_buttonUp,
+	.mCSB_scrollTools .mCSB_buttonDown,
+	.mCSB_scrollTools .mCSB_buttonLeft,
+	.mCSB_scrollTools .mCSB_buttonRight{
+		-webkit-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+		-moz-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+		-o-transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+		transition: opacity .2s ease-in-out, background-color .2s ease-in-out;
+	}
+	
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar, /* auto-expanded scrollbar */
+	.mCSB_scrollTools_vertical.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail, 
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_dragger_bar, 
+	.mCSB_scrollTools_horizontal.mCSB_scrollTools_onDrag_expand .mCSB_draggerRail{
+		-webkit-transition: width .2s ease-out .2s, height .2s ease-out .2s, 
+					margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
+					margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+					opacity .2s ease-in-out, background-color .2s ease-in-out; 
+		-moz-transition: width .2s ease-out .2s, height .2s ease-out .2s, 
+					margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
+					margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+					opacity .2s ease-in-out, background-color .2s ease-in-out; 
+		-o-transition: width .2s ease-out .2s, height .2s ease-out .2s, 
+					margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
+					margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+					opacity .2s ease-in-out, background-color .2s ease-in-out; 
+		transition: width .2s ease-out .2s, height .2s ease-out .2s, 
+					margin-left .2s ease-out .2s, margin-right .2s ease-out .2s, 
+					margin-top .2s ease-out .2s, margin-bottom .2s ease-out .2s,
+					opacity .2s ease-in-out, background-color .2s ease-in-out; 
+	}
+
+
+
+/* 
+------------------------------------------------------------------------------------------------------------------------
+6. SCROLLBAR COLORS, OPACITY AND BACKGROUNDS  
+------------------------------------------------------------------------------------------------------------------------
+*/
+
+	/* 
+	----------------------------------------
+	6.1 THEMES 
+	----------------------------------------
+	*/
+	
+	/* default theme ("light") */
+
+	.mCSB_scrollTools{ opacity: 0.75; filter: "alpha(opacity=75)"; -ms-filter: "alpha(opacity=75)"; }
+	
+	.mCS-autoHide > .mCustomScrollBox > .mCSB_scrollTools,
+	.mCS-autoHide > .mCustomScrollBox ~ .mCSB_scrollTools{ opacity: 0; filter: "alpha(opacity=0)"; -ms-filter: "alpha(opacity=0)"; }
+	
+	.mCustomScrollbar > .mCustomScrollBox > .mCSB_scrollTools.mCSB_scrollTools_onDrag,
+	.mCustomScrollbar > .mCustomScrollBox ~ .mCSB_scrollTools.mCSB_scrollTools_onDrag,
+	.mCustomScrollBox:hover > .mCSB_scrollTools,
+	.mCustomScrollBox:hover ~ .mCSB_scrollTools,
+	.mCS-autoHide:hover > .mCustomScrollBox > .mCSB_scrollTools,
+	.mCS-autoHide:hover > .mCustomScrollBox ~ .mCSB_scrollTools{ opacity: 1; filter: "alpha(opacity=100)"; -ms-filter: "alpha(opacity=100)"; }
+
+	.mCSB_scrollTools .mCSB_draggerRail{
+		background-color: #000; background-color: rgba(0,0,0,0.4);
+		filter: "alpha(opacity=40)"; -ms-filter: "alpha(opacity=40)"; 
+	}
+
+	.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+		background-color: #fff; background-color: rgba(255,255,255,0.75);
+		filter: "alpha(opacity=75)"; -ms-filter: "alpha(opacity=75)"; 
+	}
+
+	.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+		background-color: #fff; background-color: rgba(255,255,255,0.85);
+		filter: "alpha(opacity=85)"; -ms-filter: "alpha(opacity=85)"; 
+	}
+	.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+	.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+		background-color: #fff; background-color: rgba(255,255,255,0.9);
+		filter: "alpha(opacity=90)"; -ms-filter: "alpha(opacity=90)"; 
+	}
+
+	.mCSB_scrollTools .mCSB_buttonUp,
+	.mCSB_scrollTools .mCSB_buttonDown,
+	.mCSB_scrollTools .mCSB_buttonLeft,
+	.mCSB_scrollTools .mCSB_buttonRight{
+		background-image: url(/local/components/magnitmedia/tree.comments/templates/.default/mCSB_buttons.png); /* css sprites */
+		background-repeat: no-repeat;
+		opacity: 0.4; filter: "alpha(opacity=40)"; -ms-filter: "alpha(opacity=40)"; 
+	}
+
+	.mCSB_scrollTools .mCSB_buttonUp{
+		background-position: 0 0;
+		/* 
+		sprites locations 
+		light: 0 0, -16px 0, -32px 0, -48px 0, 0 -72px, -16px -72px, -32px -72px
+		dark: -80px 0, -96px 0, -112px 0, -128px 0, -80px -72px, -96px -72px, -112px -72px
+		*/
+	}
+
+	.mCSB_scrollTools .mCSB_buttonDown{
+		background-position: 0 -20px;
+		/* 
+		sprites locations
+		light: 0 -20px, -16px -20px, -32px -20px, -48px -20px, 0 -92px, -16px -92px, -32px -92px
+		dark: -80px -20px, -96px -20px, -112px -20px, -128px -20px, -80px -92px, -96px -92px, -112 -92px
+		*/
+	}
+
+	.mCSB_scrollTools .mCSB_buttonLeft{
+		background-position: 0 -40px;
+		/* 
+		sprites locations 
+		light: 0 -40px, -20px -40px, -40px -40px, -60px -40px, 0 -112px, -20px -112px, -40px -112px
+		dark: -80px -40px, -100px -40px, -120px -40px, -140px -40px, -80px -112px, -100px -112px, -120px -112px
+		*/
+	}
+
+	.mCSB_scrollTools .mCSB_buttonRight{
+		background-position: 0 -56px;
+		/* 
+		sprites locations 
+		light: 0 -56px, -20px -56px, -40px -56px, -60px -56px, 0 -128px, -20px -128px, -40px -128px
+		dark: -80px -56px, -100px -56px, -120px -56px, -140px -56px, -80px -128px, -100px -128px, -120px -128px
+		*/
+	}
+
+	.mCSB_scrollTools .mCSB_buttonUp:hover,
+	.mCSB_scrollTools .mCSB_buttonDown:hover,
+	.mCSB_scrollTools .mCSB_buttonLeft:hover,
+	.mCSB_scrollTools .mCSB_buttonRight:hover{ opacity: 0.75; filter: "alpha(opacity=75)"; -ms-filter: "alpha(opacity=75)"; }
+
+	.mCSB_scrollTools .mCSB_buttonUp:active,
+	.mCSB_scrollTools .mCSB_buttonDown:active,
+	.mCSB_scrollTools .mCSB_buttonLeft:active,
+	.mCSB_scrollTools .mCSB_buttonRight:active{ opacity: 0.9; filter: "alpha(opacity=90)"; -ms-filter: "alpha(opacity=90)"; }
+	
+
+	/* theme: "dark" */
+
+	.mCS-dark.mCSB_scrollTools .mCSB_draggerRail{ background: none; }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background-color: #000; background-color: rgba(0,0,0,0.75); }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.85); }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+	.mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{ background-color: rgba(0,0,0,0.9); }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_buttonUp{ background-position: -80px 0; }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_buttonDown{ background-position: -80px -20px; }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_buttonLeft{ background-position: -80px -40px; }
+
+	.mCS-dark.mCSB_scrollTools .mCSB_buttonRight{ background-position: -80px -56px; }
+	
+	/* ---------------------------------------- */
+	
+/* End */
+/* /local/templates/personal/components/bitrix/news/marathon/bitrix/news.detail/.default/style.css?1604569423759 */
+/* /local/components/magnitmedia/tree.comments/templates/.default/style.css?160456942126324 */
+/* /local/components/magnitmedia/tree.comments/templates/.default/jquery.mCustomScrollbar.css?160456942116507 */

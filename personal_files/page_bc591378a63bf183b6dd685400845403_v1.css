@@ -1,0 +1,143 @@
+
+
+/* Start:/local/components/sng/main.profile.simple/templates/personalform/style.min.css?1604569422700*/
+.profile-block-hidden{display:none}.profile-block-shown{display:block}.profile-table{width:100%}.profile-link{margin-top:5px;margin-bottom:5px;padding-top:5px;padding-bottom:5px;font-weight:bold}.profile-table td{vertical-align:top;width:50%}div.bx-auth-profile input.bx-auth-input{vertical-align:middle}div.bx-auth-profile span.bx-auth-secure{background-color:#fffae3;border:1px solid #dedbc8;padding:2px;display:inline-block;vertical-align:middle}div.bx-auth-profile div.bx-auth-secure-icon{background-image:url(/local/components/sng/main.profile.simple/templates/personalform/images/sec.png);background-repeat:no-repeat;background-position:center;width:19px;height:18px}div.bx-auth-profile div.bx-auth-secure-unlock{background-image:url(/local/components/sng/main.profile.simple/templates/personalform/images/sec-unlocked.png)}
+/* End */
+
+
+/* Start:/local/templates/.default/components/bxmaker/authuserphone.edit/personal2/style.css?16045694222044*/
+/* Sms auth change phone number */
+.form-group .link {
+  font-weight: bold;
+  color: #9027AB;
+  position: absolute;
+  top: 7px;
+  right: 0;
+  display: flex;
+  text-decoration: underline;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.form-group .link .question-wrap {
+  position: relative;
+}
+
+.form-group .link .question-wrap img {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}
+
+.form-group .link .question-wrap .tooltip {
+  display: none;
+  position: absolute;
+  top: 138%;
+  background: rgba(0,0,0,.8);
+  z-index: 10;
+  color: white;
+  opacity: 1;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  width: 250px;
+  line-height: 1.5;
+  border-radius: 5px;
+  left: -100px;
+  visibility: hidden;
+  transition: .15s all ease-in-out;
+  z-index: 10;
+}
+
+.form-group .link .question-wrap .tooltip:before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 45%;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid black;
+}
+
+.form-group .link .question-wrap:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
+
+.form-group.no-icon {
+  padding-left: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .form-group .link {
+    font-weight: bold;
+    color: #9027AB;
+    position: absolute;
+    top: 45px;
+    left: 55px;
+    display: flex;
+    text-decoration: underline;
+    cursor: pointer;
+    z-index: 10;
+  }
+}
+
+.sms-code {
+  display: block;
+}
+
+.form-group .split {
+  display: flex;
+  margin-top: 10px;
+}
+
+.form-group .split a {
+  margin-right: 30px;
+  text-decoration: underline;
+  font-weight: 300;
+  color: black;
+  cursor: pointer;
+}
+
+.form-group .split span {
+  font-weight: 700;
+  color: black;
+  font-weight: 500;
+}
+
+.form-group .btn.full-width {
+  width: 100%;
+}
+
+.form-group.pl {
+  padding-left: 55px;
+}
+
+.card-login .form-group {
+  margin-right: 20px;
+}
+
+.sms-code.hide, .sms-code-bottom .hide {
+	display: none;
+}
+
+.cbaup_btn_link.preloader {
+	all: unset;
+}
+
+.cbaup_btn.preloader {
+	min-width: initial;
+	display: block;
+}
+/* End */
+
+
+/* Start:/local/components/sng/main.profile.password/templates/personalform/style.min.css?1604569422700*/
+.profile-block-hidden{display:none}.profile-block-shown{display:block}.profile-table{width:100%}.profile-link{margin-top:5px;margin-bottom:5px;padding-top:5px;padding-bottom:5px;font-weight:bold}.profile-table td{vertical-align:top;width:50%}div.bx-auth-profile input.bx-auth-input{vertical-align:middle}div.bx-auth-profile span.bx-auth-secure{background-color:#fffae3;border:1px solid #dedbc8;padding:2px;display:inline-block;vertical-align:middle}div.bx-auth-profile div.bx-auth-secure-icon{background-image:url(/local/components/sng/main.profile.password/templates/personalform/images/sec.png);background-repeat:no-repeat;background-position:center;width:19px;height:18px}div.bx-auth-profile div.bx-auth-secure-unlock{background-image:url(/local/components/sng/main.profile.password/templates/personalform/images/sec-unlocked.png)}
+/* End */
+/* /local/components/sng/main.profile.simple/templates/personalform/style.min.css?1604569422700 */
+/* /local/templates/.default/components/bxmaker/authuserphone.edit/personal2/style.css?16045694222044 */
+/* /local/components/sng/main.profile.password/templates/personalform/style.min.css?1604569422700 */
